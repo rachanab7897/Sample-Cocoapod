@@ -1,0 +1,11 @@
+framework module Sample_Cocoapod {
+  umbrella header "Sample_Cocoapod.h"
+
+  export *
+  module * { export * }
+}
+
+module Sample_Cocoapod.Swift {
+    header "Sample_Cocoapod-Swift.h"
+    requires objc
+}
